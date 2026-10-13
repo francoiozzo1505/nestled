@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <radialGradient id="g" cx="50%" cy="38%" r="70%"><stop offset="0" stop-color="#22382D"/><stop offset="1" stop-color="#13201A"/></radialGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#g)"/>
+  <g transform="translate(256 262) scale(1.14) translate(-256 -262)">
+  <!-- moon -->
+  <mask id="m"><rect width="512" height="512" fill="#fff"/><circle cx="294" cy="150" r="52" fill="#000"/></mask>
+  <circle cx="318" cy="168" r="58" fill="#E3B341" mask="url(#m)"/>
+  <!-- stars -->
+  <circle cx="190" cy="150" r="5" fill="#EDE6D3" opacity=".8"/>
+  <circle cx="236" cy="112" r="3.5" fill="#EDE6D3" opacity=".6"/>
+  <circle cx="372" cy="250" r="3.5" fill="#EDE6D3" opacity=".6"/>
+  <!-- eggs -->
+  <ellipse cx="228" cy="292" rx="34" ry="44" fill="#EDE6D3"/>
+  <ellipse cx="288" cy="286" rx="36" ry="47" fill="#F6F1E4"/>
+  <!-- nest -->
+  <path d="M138 296 Q256 330 374 296 Q370 376 256 386 Q142 376 138 296 Z" fill="#8A6236"/>
+  <path d="M142 302 Q256 338 370 302" fill="none" stroke="#B9874C" stroke-width="12" stroke-linecap="round"/>
+  <path d="M156 336 Q256 362 356 336" fill="none" stroke="#6B4A27" stroke-width="9" stroke-linecap="round"/>
+  <path d="M184 366 Q256 380 328 366" fill="none" stroke="#B9874C" stroke-width="8" stroke-linecap="round"/>
+  <path d="M170 318 L206 352 M230 326 L262 364 M296 324 L326 356" stroke="#6B4A27" stroke-width="6" stroke-linecap="round"/>
+  </g>
+</svg>
